@@ -10,7 +10,7 @@ En el **notebook 2** hago una comparación básica entre LSTM (modelLSTM1.h1) y 
 Como hemos visto en clase, GRU es un modelo un poco menos desarrollado que LSTM por tanto en los siguientes notebooks vamos a optimizar el modelo LSTM. Voy a construir modelos LSTM con mayor complejidad y aumentando los datos de entrada para conseguir reducir el error.
 
 
-En el **notebook 23** túneo el modelo LSTM2 añadiendole una capa extra de LSTM y dos capas de Dropoout-0.2 para evitar sobre-entrenamiento.
+En el **notebook 3** túneo el modelo LSTM2 añadiendole una capa extra de LSTM y dos capas de Dropoout-0.2 para evitar sobre-entrenamiento.
 Uso el mismo learning rate, batch y epochs que en el notebook 1 pero obtengo un mayor error (1.81399) y peores traducciones, por tanto hago ciertos ajustes:
 - Disminuyo el learning rate para hacer que aprenda más lento
 - Aumento el número de epochs para compensar la reducción del learning rate
